@@ -1,7 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+## Cache inverse data if it is already calculated
 
 ## Write a short comment describing this function
+## return four function for get/set the matrix/the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         
@@ -21,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+## Use the value which is already in cache if existed
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         mt <- x$getinverse()
